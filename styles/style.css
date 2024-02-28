@@ -8,9 +8,9 @@ body {
   background: white;
 }
 
-/* * {
-  outline: 1px solid red;
-} */
+::-webkit-scrollbar {
+  width: 0;
+}
 
 .container {
   margin: 0 auto;
@@ -73,6 +73,7 @@ section {
 
 .nav__link:hover {
   opacity: 0.5;
+  border-bottom: 1px solid var(--color-black);
   transition: 0.3s ease-in-out;
 }
 
@@ -412,6 +413,10 @@ section {
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-white);
+}
+
+.popup__contant::-webkit-scrollbar {
+  width: 0;
 }
 
 .popup__title {
