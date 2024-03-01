@@ -174,7 +174,7 @@ section {
 }
 
 .hero__text {
-  max-width: 312px;
+  max-width: 450px;
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -410,7 +410,6 @@ section {
   height: 708px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   background-color: var(--color-white);
 }
@@ -429,6 +428,7 @@ section {
 }
 
 .popup__text {
+  margin-bottom: 60px;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
@@ -436,6 +436,7 @@ section {
 }
 
 .popup__input {
+  margin-bottom: 60px;
   width: 615px;
   display: block;
   font-size: 25px;
@@ -449,6 +450,31 @@ section {
 
 .popup__input:focus {
   outline: none;
+}
+
+.popup__input-bottom {
+  margin-bottom: 90px;
+}
+
+.popup__name {
+  border: none;
+  width: 90%;
+  height: 40px;
+  font-size: 24px;
+}
+
+.popup__email {
+  border: none;
+  width: 50%;
+  height: 40px;
+  font-size: 24px;
+}
+
+.popup__tel {
+  border: none;
+  width: 50%;
+  height: 40px;
+  font-size: 24px;
 }
 
 .popup__btn {
