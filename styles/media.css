@@ -1,4 +1,4 @@
-@media (max-width: 1199px) {
+@media (max-width: 1024px) {
   .container {
     width: 100%;
     padding: 0 15px;
@@ -234,7 +234,13 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 805px) {
+  .contacts__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
   .container {
     padding: 0 13px;
   }
