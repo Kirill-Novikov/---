@@ -40,7 +40,7 @@
       </div>
     </header>
     <div class="js-burger burger">
-      <div class="js-burger__content burger__content">
+      <div class="burger__content">
         <img class="burger__img" src="img/Метрика.svg" alt="логотип метрика" />
         <nav class="burger__nav">
           <ul class="burger__list">
@@ -58,7 +58,7 @@
             </li>
           </ul>
         </nav>
-        <div class="burger__contacts">
+        <div class="js-burger__content burger__contacts">
           <p class="burger-text">для связи:</p>
           <p class="burger__tel">
             <a class="burger__tel-link" href="tel:+79358954535"
@@ -244,25 +244,46 @@
                   Заполните форму, мы свяжемся с вами в течение суток
                 </p>
               </div>
-              <input class="popup__input" type="text" placeholder="Имя" />
-              <input
-                class="popup__input"
-                type="text"
-                placeholder="Электронная почта"
-              />
-              <input
-                class="popup__input"
-                type="text"
-                placeholder="Номер телефона"
-              />
-              <button class="popup__btn">Отправить</button>
-              <div class="js-popup__close-btn popup__close-btn">
-                <img
-                  class="popup__close-icon"
-                  src="img/cross-icon.svg"
-                  alt="крестик"
-                />
-              </div>
+              <form action="" method="post">
+                <p class="popup__input">
+                  <label for="name">Имя</label>
+                  <input
+                    class="popup__name"
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                  />
+                </p>
+                <p class="popup__input">
+                  <label for="email">Электронная почта</label>
+                  <input
+                    class="popup__email"
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                </p>
+                <p class="popup__input popup__input-bottom">
+                  <label for="tel">Номер телефона</label>
+                  <input
+                    class="popup__tel"
+                    type="tel"
+                    name="tel"
+                    id="tel"
+                    required
+                  />
+                </p>
+                <button class="popup__btn" type="submit">Отправить</button>
+                <div class="js-popup__close-btn popup__close-btn">
+                  <img
+                    class="popup__close-icon"
+                    src="img/cross-icon.svg"
+                    alt="крестик"
+                  />
+                </div>
+              </form>
             </div>
           </div>
         </div>
