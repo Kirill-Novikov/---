@@ -412,6 +412,12 @@
     font-size: 14px;
   }
 
+  .popup__name,
+  .popup__email,
+  .popup__tel {
+    font-size: 18px;
+  }
+
   .popup__close-btn {
     top: 40px;
     right: 29px;
